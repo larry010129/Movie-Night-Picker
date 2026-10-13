@@ -10,13 +10,13 @@ const movies = [
     { title: "Inside Out", genre: "Animation", year: 2015, length: 95 },
     { title: "The Matrix", genre: "Sci-Fi", year: 1999, length: 136 },
     { title: "Jurassic Park", genre: "Adventure", year: 1993, length: 127 },
-    { title: "Mad Max: Fury Road", genre: "Action", year: 2015, length: 120 },
+    { title: "Avengers: Endgame", genre: "Action", year: 2019, length: 181 },
     { title: "Harry Potter and the Sorcerer's Stone", genre: "Fantasy", year: 2001, length: 152 },
     { title: "Inception", genre: "Sci-Fi", year: 2010, length: 148 },
     { title: "Pirates of the Caribbean", genre: "Adventure", year: 2003, length: 143 },
     { title: "John Wick", genre: "Action", year: 2014, length: 101 },
-    { title: "Spirited Away", genre: "Animation", year: 2001, length: 125 },
-    { title: "The Lord of the Rings", genre: "Fantasy", year: 2001, length: 178 }
+    { title: "Toy Story", genre: "Animation", year: 1995, length: 81 },
+    { title: "The Hobbit", genre: "Fantasy", year: 2012, length: 169 }
 ];
 
 let currentSort = "";
