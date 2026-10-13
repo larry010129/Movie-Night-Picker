@@ -27,10 +27,14 @@ const sortMethods = {
 };
 
 function getFiltered() {
-    const sorted = movies.sort(sortMethods[currentSort]);
     const genre = genreSelect.value;
+    let list = movies;
 
-    const filtered = sorted.filter((movie) => {
+    if (currentSort !== "") {
+        list = movies.sort(sortMethods[currentSort]);
+    }
+
+    const filtered = list.filter((movie) => {
         return genre === "all" || movie.genre === genre;
     });
 
